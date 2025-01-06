@@ -5,7 +5,7 @@ const Why = () => {
     <div className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-5xl font-extrabold text-center mb-8">
-          Why Chordify.ai
+          Why <span className="text-red-400">voice.ai</span>
         </h2>
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">

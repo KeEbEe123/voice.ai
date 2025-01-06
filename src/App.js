@@ -8,7 +8,7 @@ import Final from "./pages/Final";
 import Spline from "@splinetool/react-spline";
 import PreLog from "./pages/PreLog";
 import Login from "./pages/Login";
-import 
+import About from "./pages/About";
 
 function App() {
   const [data, setData] = useState([{}]);
@@ -31,6 +31,7 @@ function App() {
         <Route path="/song" element={<Song />} />
         <Route path="/final" element={<Final />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

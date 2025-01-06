@@ -10,10 +10,7 @@ const TestimonialSection = () => {
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
             <div className="bg-gray-800 rounded-lg p-6">
-              <p className="text-lg mb-4">
-                "This is an amazing testimonial. It says wonderful things about
-                your product or service."
-              </p>
+              <p className="text-lg mb-4">"Amazing product."</p>
               <p className="text-sm text-gray-400">- John Doe</p>
             </div>
           </div>

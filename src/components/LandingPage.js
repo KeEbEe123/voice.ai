@@ -5,11 +5,14 @@ const LandingPage = (props) => {
   return (
     <div className="bg-gray-800 text-white max-h-screen">
       {/* Hero Section */}
-      <section className="bg-gray-800 pt-20 pb-24 max-h-screen">
+      <section className="bg-gradient-to-r from-pink-700 to-blue-800 pt-40 pb-24 max-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 font-montserrat">
-              Hello, <span className="text-red-400">{props.name}</span>
+              Hello,{" "}
+              <span className="text-red-400">
+                {localStorage.getItem("name")}.
+              </span>
             </h1>
             <p className="text-lg md:text-xl mb-8 font-montserrat">
               Sing it <span className="text-red-400">your</span> way.
