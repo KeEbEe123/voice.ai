@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyAuGRdUOgdKlVoIUh6l8IMRhyZyCgmtU2c",
+  apiKey: "YOUR_API_KEY",
   authDomain: "chordify-6167a.firebaseapp.com",
   projectId: "chordify-6167a",
   storageBucket: "chordify-6167a.appspot.com",
